@@ -1,3 +1,8 @@
+
+package.json
+tob
+
+
 {
   "name": "vitalis-bot",
   "version": "1.0.0",
@@ -8,23 +13,13 @@
   },
   "dependencies": {
     "body-parser": "^1.20.2",
-    {
-      "name": "vitalis-bot",
-      "version": "1.0.0",
-      "description": "Discord bot for Vitalis Network with Economy and Reputation systems.",
-      "main": "index.js",
-      "scripts": {
-        "start": "node index.js"
-      },
-      "dependencies": {
-        "body-parser": "^1.20.2",
-        "cors": "^2.8.5",
-        "discord.js": "^14.14.0",
-        "dotenv": "^17.2.3",
-        "express": "^4.18.2",
-        "mongoose": "^9.0.0"
-      },
-      "engines": {
-        "node": ">=20.0.0"
-      }
-    }
+    "cors": "^2.8.5",
+    "discord.js": "^14.14.0",
+    "dotenv": "^17.2.3",
+    "express": "^4.18.2",
+    "mongoose": "^9.0.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
